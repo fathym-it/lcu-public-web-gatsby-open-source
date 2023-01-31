@@ -2,19 +2,19 @@
   "Applications": {
     "$1": {
       "Application": {
-        "Description": "An application for hosting the files fromthe NPM package '{{NPM_PACKAGE}}'",
-        "Name": "NPM Package Deploy: {{NPM_PACKAGE}}"
+        "Description": "A basic starting point for sites built with Gatsby.",
+        "Name": "Gatsby - Headless Websites - Open Source"
       },
       "LookupConfig": {
-        "PathRegex": "/packages/{{NPM_PACKAGE}}.*"
+        "PathRegex": "/.*"
       },
       "LowCodeUnit": {
-        "Package": "{{NPM_PACKAGE}}",
-        "Version": "{{PACKAGE_VERSION}}",
+        "Package": "@fathym-it/public-web-gatsby",
+        "Version": "latest",
         "Type": "NPM"
       },
       "Processor": {
-        "BaseHref": "/packages/{{NPM_PACKAGE}}/",
+        "BaseHref": "/",
         "DefaultFile": "index.html",
         "Type": "DFS"
       }
