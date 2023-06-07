@@ -3,7 +3,13 @@
     "Name": "Gatsby - Headless Websites - Open Source",
     "Description": "A customizable starter to quickly deploy a Gatsby app to Fathym.",
     "Image": "https://www.fathym.com/img/gatsby.png",
-    "PreviewImage": "https://pbs.twimg.com/profile_images/1135999619781939201/HZ-pCQcP_400x400.png"
+    "PreviewImage": "https://pbs.twimg.com/profile_images/1135999619781939201/HZ-pCQcP_400x400.png",
+    "Intents":[
+      "Gatsby",
+      "Getting started",
+      "Website",
+      "Application"
+    ]
   },
   "Configurations": {
     "Full": {
