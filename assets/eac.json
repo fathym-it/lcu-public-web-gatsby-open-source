@@ -2,8 +2,8 @@
   "Applications": {
     "$1": {
       "Application": {
-        "Description": "A basic starting point for sites built with Gatsby.",
-        "Name": "Gatsby - Headless Websites - Open Source"
+        "Description": "A Gatsby headless starter app deployed to Fathym via an NPM package.",
+        "Name": "Gatsby Headless Starter - NPM Launch"
       },
       "LookupConfig": {
         "PathRegex": "/.*"
