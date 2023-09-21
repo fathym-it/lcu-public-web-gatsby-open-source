@@ -1,23 +1,24 @@
 {
   "Package": {
-    "Name": "Gatsby - Headless Websites - Open Source",
-    "Description": "A customizable starter to quickly deploy a Gatsby app to Fathym.",
+    "Name": "Gatsby Headless Starter - NPM Launch",
+    "Description": "A Gatsby headless starter app deployed to Fathym via NPM package.",
     "Image": "https://www.fathym.com/img/gatsby.png",
     "PreviewImage": "https://pbs.twimg.com/profile_images/1135999619781939201/HZ-pCQcP_400x400.png",
     "Intents":[
       "Gatsby",
       "Getting started",
       "Website",
-      "Application"
+      "Application",
+      "NPM"
     ]
   },
   "Configurations": {
     "Full": {
-      "Name": "Gatsby Quickstart - Open Source",
-      "Description": "Gatsby Quickstart - Open Source",
+      "Name": "Gatsby Headless Starter - NPM Launch",
+      "Description": "A Gatsby headless starter app deployed to Fathym via NPM package.",
       "Phases": [
         {
-          "Name": "Setup Gatsby",
+          "Name": "Setting Up Gatsby Headless Starter - NPM Launch",
           "Order": 1,
           "Asset": "gatsby"
         }
