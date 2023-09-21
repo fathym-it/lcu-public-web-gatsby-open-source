@@ -2,7 +2,7 @@
   "Applications": {
     "{{$1}}-public-web-gatsby-open-source": {
       "Details": {
-        "Description": "A Gatsby headless starter app deployed to Fathym via NPM package.",
+        "Description": "A Gatsby headless starter app deployed to Fathym via an NPM package.",
         "Name": "Gatsby Headless Starter - NPM Launch"
       },
       "LookupConfig": {
@@ -28,7 +28,7 @@
     "{{PROJECT_LOOKUP}}": {
       "Details": {
         "Name": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Name}}{{Details.Name}}{{/if}}{{else}}Gatsby Headless Starter - NPM Launch{{/if}}",
-        "Description": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Description}}{{Details.Description}}{{/if}}{{else}}A Gatsby headless starter app deployed to Fathym via NPM package.{{/if}}"
+        "Description": "{{#if (lookup EaC.Projects PROJECT_LOOKUP)}}{{#if Details.Description}}{{Details.Description}}{{/if}}{{else}}A Gatsby headless starter app deployed to Fathym via an NPM package.{{/if}}"
       },
       "ApplicationLookups": [
         "{{$1}}-public-web-gatsby-open-source"
